@@ -13,13 +13,13 @@
 
 #### Примеры использования
 
-'''csharp
+```csharp
 bool a = true;
 bool b = false;
 
 bool andResult = a && b;  // false, так как b = false
 bool orResult = a || b;   // true, так как a = true
-'''
+```
 
 ### Оператор НЕ (`!`)
 
@@ -27,11 +27,11 @@ bool orResult = a || b;   // true, так как a = true
 
 #### Примеры использования
 
-'''csharp
+```csharp
 bool a = true;
 
 bool notResult = !a;  // false, так как a = true
-'''
+```
 
 ## Логические выражения
 
@@ -39,7 +39,7 @@ bool notResult = !a;  // false, так как a = true
 
 ### Примеры условий
 
-'''csharp
+```csharp
 int x = 10;
 int y = 20;
 
@@ -51,11 +51,11 @@ else
 {
     Console.WriteLine("Одно или оба условия ложны.");
 }
-'''
+```
 
 ### Пример с оператором ИЛИ
 
-'''csharp
+```csharp
 int age = 25;
 bool hasPermission = false;
 
@@ -67,7 +67,7 @@ else
 {
     Console.WriteLine("Доступ запрещен.");
 }
-'''
+```
 
 ## Операторы сравнения
 
@@ -84,7 +84,7 @@ else
 
 #### Примеры использования
 
-'''csharp
+```csharp
 int a = 10;
 int b = 20;
 
@@ -94,18 +94,18 @@ bool greaterResult = (a > b);  // false
 bool lessResult = (a < b);     // true
 bool greaterOrEqualResult = (a >= b); // false
 bool lessOrEqualResult = (a <= b);    // true
-'''
+```
 
 ### Вывод результатов
 
-'''csharp
+```csharp
 Console.WriteLine($"Equal: {equalResult}");           // Equal: False
 Console.WriteLine($"Not Equal: {notEqualResult}");    // Not Equal: True
 Console.WriteLine($"Greater: {greaterResult}");       // Greater: False
 Console.WriteLine($"Less: {lessResult}");             // Less: True
 Console.WriteLine($"Greater or Equal: {greaterOrEqualResult}"); // Greater or Equal: False
 Console.WriteLine($"Less or Equal: {lessOrEqualResult}");       // Less or Equal: True
-'''
+```
 
 ## Логические операторы с числами
 
@@ -113,7 +113,7 @@ Console.WriteLine($"Less or Equal: {lessOrEqualResult}");       // Less or Equal
 
 ### Пример
 
-'''csharp
+```csharp
 int number = 15;
 
 if (number > 10 && number < 20)
@@ -124,13 +124,13 @@ else
 {
     Console.WriteLine("Number is not between 10 and 20.");
 }
-'''
+```
 
 ### Вывод результата
 
-'''csharp
+```csharp
 // Number is between 10 and 20.
-'''
+```
 
 ## Комбинированные условия
 
@@ -138,7 +138,7 @@ else
 
 ### Пример
 
-'''csharp
+```csharp
 int temperature = 25;
 bool isSunny = true;
 
@@ -150,13 +150,13 @@ else
 {
     Console.WriteLine("The weather is not ideal.");
 }
-'''
+```
 
 ### Вывод результата
 
-'''csharp
+```csharp
 // It's a warm and sunny day.
-'''
+```
 
 ## Краткое замыкание (Short-circuiting)
 
@@ -164,7 +164,7 @@ else
 
 ### Пример с оператором И
 
-'''csharp
+```csharp
 bool a = false;
 bool b = (10 / 0 > 1);  // Это выражение вызовет деление на ноль, если будет оценено
 
@@ -176,11 +176,11 @@ else
 {
     Console.WriteLine("This will be printed.");
 }
-'''
+```
 
 ### Пример с оператором ИЛИ
 
-'''csharp
+```csharp
 bool a = true;
 bool b = (10 / 0 > 1);  // Это выражение вызовет деление на ноль, если будет оценено
 
@@ -192,14 +192,19 @@ else
 {
     Console.WriteLine("This will not be printed.");
 }
-'''
+```
 
 ### Вывод результата
 
-'''csharp
+```csharp
 // This will be printed.
-'''
+```
 
 ## Заключение
 
 В этом уроке мы рассмотрели основные логические операторы в C#, такие как `&&`, `||`, и `!`, а также операторы сравнения и их использование в логических выражениях и условиях. Мы узнали, как использовать эти операторы для управления потоком выполнения программы и построения сложных условий. Практикуйтесь с этими операторами, чтобы лучше понять, как они работают и как их можно использовать в различных сценариях программирования.
+
+## Навигатор
+
+- [На главную](../index.md)
+- [Следующая  лекция](../B02_L02_Logic/README.md)

@@ -206,4 +206,4 @@ Console.WriteLine($"Decimal Quotient: {decimalQuotient}");   // Decimal Quotient
 ## Навигатор
 
 - [На главную](../index.md)
-- [Следующая  лекция](../B02_L03_Logic/README.md)
+- [Следующая  лекция](../B02_L04_Logic/README.md)
