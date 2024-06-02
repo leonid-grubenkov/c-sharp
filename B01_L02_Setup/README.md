@@ -44,7 +44,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.ReadKey(); // Ждем нажатия клавиши, чтобы консоль не закрылась сразу
+            Console.ReadLine(); // Ждем нажатия клавиши Enter, чтобы консоль не закрылась сразу
         }
     }
 }
@@ -65,4 +65,4 @@ namespace HelloWorld
 ## Навигатор
 
 - [На главную](../index.md)
-- [Следующая  лекция](../B02_L01_Syntax/README.md)
+- [Следующая  лекция](../B02_L01_Vars/README.md)
