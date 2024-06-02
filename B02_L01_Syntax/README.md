@@ -10,37 +10,37 @@
 
 #### Однострочные комментарии
 
-'''csharp
+```csharp
 // Это однострочный комментарий
 Console.WriteLine("Hello, World!"); // Комментарий после строки кода
-'''
+```
 
 #### Многострочные комментарии
 
-'''csharp
+```csharp
 /* Это многострочный
    комментарий */
 Console.WriteLine("Hello, World!");
-'''
+```
 
 ### Переменные
 
 Переменные в C# должны быть объявлены с указанием типа данных.
 
-'''csharp
+```csharp
 int myNumber = 10;
 string myString = "Hello";
 bool myBool = true;
-'''
+```
 
 ### Константы
 
 Константы объявляются с использованием ключевого слова `const`.
 
-'''csharp
+```csharp
 const int myConst = 100;
 const string myConstString = "Constant String";
-'''
+```
 
 ## Операторы
 
@@ -52,7 +52,7 @@ const string myConstString = "Constant String";
 - `/` : деление
 - `%` : остаток от деления
 
-'''csharp
+```csharp
 int a = 10;
 int b = 5;
 int sum = a + b;        // 15
@@ -60,7 +60,7 @@ int difference = a - b; // 5
 int product = a * b;    // 50
 int quotient = a / b;   // 2
 int remainder = a % b;  // 0
-'''
+```
 
 ### Логические операторы
 
@@ -68,14 +68,14 @@ int remainder = a % b;  // 0
 - `||` : логическое ИЛИ
 - `!` : логическое НЕ
 
-'''csharp
+```csharp
 bool x = true;
 bool y = false;
 
 bool andResult = x && y; // false
 bool orResult = x || y;  // true
 bool notResult = !x;     // false
-'''
+```
 
 ### Операторы сравнения
 
@@ -86,7 +86,7 @@ bool notResult = !x;     // false
 - `>=` : больше или равно
 - `<=` : меньше или равно
 
-'''csharp
+```csharp
 int a = 10;
 int b = 20;
 
@@ -96,7 +96,7 @@ bool greater = (a > b);       // false
 bool less = (a < b);          // true
 bool greaterOrEqual = (a >= b); // false
 bool lessOrEqual = (a <= b);    // true
-'''
+```
 
 ## Управляющие конструкции
 
@@ -104,7 +104,7 @@ bool lessOrEqual = (a <= b);    // true
 
 #### if-else
 
-'''csharp
+```csharp
 int number = 10;
 
 if (number > 5)
@@ -115,11 +115,11 @@ else
 {
     Console.WriteLine("Number is less than or equal to 5");
 }
-'''
+```
 
 #### switch
 
-'''csharp
+```csharp
 int day = 3;
 
 switch (day)
@@ -137,22 +137,22 @@ switch (day)
         Console.WriteLine("Other day");
         break;
 }
-'''
+```
 
 ### Циклы
 
 #### for
 
-'''csharp
+```csharp
 for (int i = 0; i < 5; i++)
 {
     Console.WriteLine($"Iteration {i}");
 }
-'''
+```
 
 #### while
 
-'''csharp
+```csharp
 int i = 0;
 
 while (i < 5)
@@ -160,11 +160,11 @@ while (i < 5)
     Console.WriteLine($"Iteration {i}");
     i++;
 }
-'''
+```
 
 #### do-while
 
-'''csharp
+```csharp
 int i = 0;
 
 do
@@ -172,35 +172,35 @@ do
     Console.WriteLine($"Iteration {i}");
     i++;
 } while (i < 5);
-'''
+```
 
 #### foreach
 
-'''csharp
+```csharp
 string[] fruits = { "Apple", "Banana", "Cherry" };
 
 foreach (string fruit in fruits)
 {
     Console.WriteLine(fruit);
 }
-'''
+```
 
 ## Функции и методы
 
 ### Объявление и вызов методов
 
-'''csharp
+```csharp
 public void SayHello()
 {
     Console.WriteLine("Hello!");
 }
 
 SayHello(); // Вызов метода
-'''
+```
 
 ### Возврат значения
 
-'''csharp
+```csharp
 public int Add(int a, int b)
 {
     return a + b;
@@ -208,13 +208,13 @@ public int Add(int a, int b)
 
 int result = Add(5, 3); // 8
 Console.WriteLine(result);
-'''
+```
 
 ### Параметры методов
 
 Методы могут принимать параметры и возвращать значения.
 
-'''csharp
+```csharp
 public int Multiply(int x, int y)
 {
     return x * y;
@@ -222,13 +222,13 @@ public int Multiply(int x, int y)
 
 int product = Multiply(4, 5); // 20
 Console.WriteLine(product);
-'''
+```
 
 ## Классы и объекты
 
 ### Объявление класса
 
-'''csharp
+```csharp
 public class Person
 {
     public string Name;
@@ -239,22 +239,22 @@ public class Person
         Console.WriteLine($"Hello, my name is {Name} and I am {Age} years old.");
     }
 }
-'''
+```
 
 ### Создание объекта
 
-'''csharp
+```csharp
 Person person = new Person();
 person.Name = "Alice";
 person.Age = 30;
 person.SayHello(); // Hello, my name is Alice and I am 30 years old.
-'''
+```
 
 ## Наследование
 
 ### Объявление базового и производного класса
 
-'''csharp
+```csharp
 public class Animal
 {
     public void Eat()
@@ -270,30 +270,30 @@ public class Dog : Animal
         Console.WriteLine("Barking...");
     }
 }
-'''
+```
 
 ### Использование наследования
 
-'''csharp
+```csharp
 Dog myDog = new Dog();
 myDog.Eat();  // Eating...
 myDog.Bark(); // Barking...
-'''
+```
 
 ## Интерфейсы
 
 ### Объявление интерфейса
 
-'''csharp
+```csharp
 public interface IMovable
 {
     void Move();
 }
-'''
+```
 
 ### Реализация интерфейса
 
-'''csharp
+```csharp
 public class Car : IMovable
 {
     public void Move()
@@ -301,14 +301,14 @@ public class Car : IMovable
         Console.WriteLine("The car is moving.");
     }
 }
-'''
+```
 
 ### Использование интерфейса
 
-'''csharp
+```csharp
 Car myCar = new Car();
 myCar.Move(); // The car is moving.
-'''
+```
 
 ## Пространства имен
 
@@ -316,7 +316,7 @@ myCar.Move(); // The car is moving.
 
 ### Объявление пространства имен
 
-'''csharp
+```csharp
 namespace MyNamespace
 {
     public class MyClass
@@ -327,22 +327,22 @@ namespace MyNamespace
         }
     }
 }
-'''
+```
 
 ### Использование пространства имен
 
-'''csharp
+```csharp
 using MyNamespace;
 
 MyClass myClass = new MyClass();
 myClass.MyMethod(); // Hello from MyNamespace.MyClass
-'''
+```
 
 ## Обработка исключений
 
 ### Использование try-catch-finally
 
-'''csharp
+```csharp
 try
 {
     int[] numbers = { 1, 2, 3 };
@@ -356,14 +356,14 @@ finally
 {
     Console.WriteLine("This block is always executed.");
 }
-'''
+```
 
 ### Вывод результата
 
-'''csharp
+```csharp
 // Exception caught: Index was outside the bounds of the array.
 // This block is always executed.
-'''
+```
 
 ## Заключение
 
