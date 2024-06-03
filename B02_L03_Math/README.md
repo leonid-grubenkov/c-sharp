@@ -35,7 +35,7 @@ Console.WriteLine($"Quotient: {quotient}");     // Quotient: 2
 Console.WriteLine($"Remainder: {remainder}");   // Remainder: 0
 ```
 
-## Операторы увеличения и уменьшения
+## Операторы увеличения и уменьшения. Инкремент и Декремент
 
 C# предоставляет операторы для увеличения и уменьшения значения переменной на единицу:
 
@@ -97,10 +97,17 @@ z %= 4;  // Эквивалентно z = z % 4; z становится 2
 ### Вывод результатов
 
 ```csharp
+int z = 10;
+
+z += 5;  // Эквивалентно z = z + 5; z становится 15
 Console.WriteLine($"z after += 5: {z}");   // z after += 5: 15
+z -= 3;  // Эквивалентно z = z - 3; z становится 12
 Console.WriteLine($"z after -= 3: {z}");   // z after -= 3: 12
+z *= 2;  // Эквивалентно z = z * 2; z становится 24
 Console.WriteLine($"z after *= 2: {z}");   // z after *= 2: 24
+z /= 4;  // Эквивалентно z = z / 4; z становится 6
 Console.WriteLine($"z after /= 4: {z}");   // z after /= 4: 6
+z %= 4;  // Эквивалентно z = z % 4; z становится 2
 Console.WriteLine($"z after %= 4: {z}");   // z after %= 4: 2
 ```
 

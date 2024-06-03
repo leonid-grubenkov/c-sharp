@@ -65,4 +65,4 @@ namespace HelloWorld
 ## Навигатор
 
 - [На главную](../index.md)
-- [Следующая  лекция](../B02_L01_Syntax/README.md)
+- [Следующий урок](../B02_L01_Syntax/README.md)
