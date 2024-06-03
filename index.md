@@ -27,7 +27,7 @@
 - [Урок 3: Интерфейсы и абстрактные классы](B03_L03_Interfaces/README.md)
 
 ### Блок 4: Разработка приложений на Windows Forms и WPF
-- [Урок 1: Основы Windows Forms](B04_L01_WinForms/README.md)
+- [Урок 1: Основы Windows Forms](B04_L01_WindowsForm/README.md)
 - [Урок 2: Основы Windows Presentation Foundation (WPF)](B04_L02_WPF/README.md)
 
 ### Блок 5: Заключительный
