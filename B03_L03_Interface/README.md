@@ -303,4 +303,4 @@ dog.MakeSound(); // The dog barks.
 
 - [На главную](../index.md)
 - [Предыдущий урок](../B03_L02_Extends/README.md)
-- [Следующий урок](../B03_L03_Interface/README.md)
+- [Следующий урок](../B04_L01_WindowsForm/README.md)
