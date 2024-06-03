@@ -240,4 +240,4 @@ while (line.Count > 0)
 
 - [На главную](../index.md)
 - [Предыдущий урок](../B02_L09_Ref_Out/README.md)
-- [Следующий урок](../B02_L10_Collections/README.md)
+- [Следующий урок](../B03_L01_Classes/README.md)
