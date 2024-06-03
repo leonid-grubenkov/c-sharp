@@ -1,4 +1,4 @@
-# Урок 4.2: WPF (Windows Presentation Foundation)
+# Урок 4.3: WPF (Windows Presentation Foundation)
 
 В этом уроке мы рассмотрим основы работы с WPF в C#. WPF — это мощная платформа для создания настольных приложений с графическим интерфейсом пользователя (GUI) на Windows.
 
@@ -324,5 +324,4 @@ namespace WpfApp
 ## Навигатор
 
 - [На главную](../index.md)
-- [Предыдущий урок](../B04_L01_WindowsForm/README.md)
-- [Следующий урок](../B04_L02_WPF/README.md)
+- [Предыдущий урок](../B04_L02_xaml/README.md)

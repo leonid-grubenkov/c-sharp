@@ -381,4 +381,4 @@ public partial class MainForm : Form
 
 - [На главную](../index.md)
 - [Предыдущий урок](../B03_L03_Interface/README.md)
-- [Следующий урок](../B04_L02_WPF/README.md)
+- [Следующий урок](../B04_L02_xaml/README.md)
